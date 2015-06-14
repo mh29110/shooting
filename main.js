@@ -69,6 +69,7 @@ cc.game.onStart = function(){
         }
         jsb.fileUtils.setSearchPaths(searchPaths);
     }
+    // cc.screen.requestFullScreen("WTF", function(){});
 
     //load resource
     cc.LoaderScene.preload(g_mainmenu, function () {
