@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "name": "phantom",
+  "description": "phantom",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/res/icon.png"
+  },
+  "developer": {
+    "name": "liphantomjia",
+    "url": "http://121.40.186.180/"
+  },
+  "default_locale": "en",
+  "installs_allowed_from": [
+    "*"
+  ],
+  "orientation": "portrait-primary",
+  "fullscreen": "true"
+}
