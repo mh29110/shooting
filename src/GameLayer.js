@@ -2,13 +2,63 @@ var GameLayer = cc.Layer.extend({
 	_breakedLayer:null,
 	_holeStencilContainer:null,
 	_target:null,
+	_scoreLabel:null,
 	ctor:function(){
 		this._super();
 		this.init();
 	},
 	init:function()
 	{
-		if(cc.sys.capabilities.hasOwnProperty('keyboard'))
+		this.addEvent();
+		this.initView();
+		this.initData();
+
+		this.scheduleUpdate();
+		return true;
+	},
+	update:function(dt)
+	{
+		this.onUpdateUI();
+	},
+	onUpdateUI:function(dt)
+	{
+		this._scoreLabel.setString("Shoot: " + PHS.GameActor.getInstance().score);
+	},
+	pokeHoleAtPoint:function(point)
+	{
+		var hole = new cc.Sprite(res.hole_effect_png);
+		hole.x = point.x;
+		hole.y = point.y;
+		hole.rotation = Math.random()*360;
+		this._breakedLayer.addChild(hole,1);
+
+		var holeStencil = new cc.Sprite(res.hole_stencil_png);
+		holeStencil.x = point.x;
+		holeStencil.y = point.y;
+		this._holeStencilContainer.addChild(holeStencil);
+		this._breakedLayer.runAction(cc.sequence(cc.scaleBy(0.01, 0.99), cc.scaleTo(0.01, 1)));
+
+		hole.scale = holeStencil.scale = 1.5;
+
+		this.onButtonEffect();
+
+		PHS.GameActor.getInstance().score ++;
+	},
+	onButtonEffect:function(){
+        //if (PHS.SOUND) {  annoying 
+        if (false) {
+            var s = cc.audioEngine.playEffect(cc.sys.os == cc.sys.OS_WP8 || cc.sys.os == cc.sys.OS_WINRT ? res.buttonEffet_wav : res.buttonEffet_mp3);
+        }
+    },
+
+//---------------------------------------init------------------------------------------------//
+	initData:function()
+	{
+		PHS.GameActor.getInstance().score = 0;
+	},
+    addEvent:function()
+    {
+    	if(cc.sys.capabilities.hasOwnProperty('keyboard'))
 		{
 			cc.eventManager.addListener({
 				event:cc.EventListener.KEYBOARD,
@@ -55,9 +105,26 @@ var GameLayer = cc.Layer.extend({
             	}
        		},this);
         }
+    },
+    initView:function()
+    {
+    	this.setMainLogic();
 
-       
-        this._target = new cc.Sprite(res.girl_jpg);
+     	this._scoreLabel = new cc.LabelBMFont("Shoot: 0", res.arial_14_fnt);
+     	this._scoreLabel.attr({
+     		anchorX:0,
+     		anchorY:1,
+     		x:0,
+     		y:cc.winSize.height
+     	});
+     	this._scoreLabel.textAlign = cc.TEXT_ALIGNMENT_LEFT;
+        this.addChild(this._scoreLabel, 1000);
+    },
+
+    setMainLogic:function()
+    {
+
+    	this._target = new cc.Sprite(res.girl_jpg);
         this._target.anchorX = 0.5;
         this._target.anchorY = 0.5;
         this._target.scale = 0.5;
@@ -97,43 +164,5 @@ var GameLayer = cc.Layer.extend({
         outClipping.stencil = targetMask;
         outClipping.addChild(innerClipping);
         this.addChild(outClipping);
-
-		this.scheduleUpdate();
-
-		this.schedule(this.onUpdateUI,1);
-
-
-
-		return true;
-	},
-	update:function(dt)
-	{
-		event;
-	},
-	onUpdateUI:function(dt)
-	{
-		cc.log("updateui");
-	},
-	pokeHoleAtPoint:function(point)
-	{
-		var hole = new cc.Sprite(res.hole_effect_png);
-		hole.x = point.x;
-		hole.y = point.y;
-		hole.rotation = Math.random()*360;
-		this._breakedLayer.addChild(hole,1);
-
-		var holeStencil = new cc.Sprite(res.hole_stencil_png);
-		holeStencil.x = point.x;
-		holeStencil.y = point.y;
-		this._holeStencilContainer.addChild(holeStencil);
-		this._breakedLayer.runAction(cc.sequence(cc.scaleBy(0.01, 0.99), cc.scaleTo(0.01, 1)));
-
-		this.onButtonEffect();
-	},
-	onButtonEffect:function(){
-        //if (PHS.SOUND) {  annoying 
-        if (false) {
-            var s = cc.audioEngine.playEffect(cc.sys.os == cc.sys.OS_WP8 || cc.sys.os == cc.sys.OS_WINRT ? res.buttonEffet_wav : res.buttonEffet_mp3);
-        }
     }
 });

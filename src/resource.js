@@ -51,5 +51,7 @@ var g_mainmenu = [
 
 var g_maingame = [
     res.hole_stencil_png,
-    res.hole_effect_png
+    res.hole_effect_png,
+    res.arial_14_png,
+    res.arial_14_fnt
 ];

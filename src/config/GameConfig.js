@@ -18,6 +18,16 @@ PHS.LEVEL = {
     STAGE3:3
 };
 
+
+PHS.LOGOY = 350;
+PHS.FLAREY = 445;
+PHS.SCALE = 1.5;
+PHS.WIDTH = 800;
+PHS.HEIGHT = 450;
+PHS.FONTCOLOR = "#1f2d96";
+PHS.menuHeight = 36;
+PHS.menuWidth = 123;
+
 //life
 PHS.LIFE = 4;
 
@@ -91,12 +101,3 @@ PHS.BULLET_SPEED = {
 };
 // the counter of active enemies
 PHS.ACTIVE_ENEMIES = 0;
-
-PHS.LOGOY = 350;
-PHS.FLAREY = 445;
-PHS.SCALE = 1.5;
-PHS.WIDTH = 800;
-PHS.HEIGHT = 450;
-PHS.FONTCOLOR = "#1f2d96";
-PHS.menuHeight = 36;
-PHS.menuWidth = 123;
