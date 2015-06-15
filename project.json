@@ -17,6 +17,7 @@
         "src/Effect.js",
         "src/GameLayer.js",
         "src/GameActor.js",
-        "src/phantomLib.js"
+        "src/phantomLib/PHBaseLayer.js",
+        "src/Background.js"
     ]
 }

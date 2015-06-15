@@ -6,6 +6,7 @@ var res = {
     hole_effect_png : 'res/shoot/hole_effect.png',
     hole_stencil_png : 'res/shoot/hole_stencil.png',
     girl_jpg:'res/shoot/girl.jpg',
+    sky_bg:'res/shoot/skybg.jpg',
     //----------------------------used---------------------//
     bgMusic_mp3 : 'res/Music/bgMusic.mp3',
     bgMusic_ogg : 'res/Music/bgMusic.ogg',
@@ -45,13 +46,14 @@ var res = {
 
 var g_mainmenu = [
     res.loading_png,
-    res.flare_jpg,
-    res.menu_png,
+    res.menu_png
 ];
 
 var g_maingame = [
     res.hole_stencil_png,
     res.hole_effect_png,
+    res.flare_jpg,
+    res.sky_bg,
     res.arial_14_png,
     res.arial_14_fnt
 ];

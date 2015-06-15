@@ -1,6 +1,12 @@
 
 var PHS = PHS || {};
+//bg
+PHS.BackgroundArr = [res.sky_bg,res.flare_jpg];
 
+//keys
+PHS.KEYS = [];
+
+//--------------------------------used----------------------//
 //game state
 PHS.GAME_STATE = {
     HOME:0,
@@ -8,8 +14,6 @@ PHS.GAME_STATE = {
     OVER:2
 };
 
-//keys
-PHS.KEYS = [];
 
 //level
 PHS.LEVEL = {

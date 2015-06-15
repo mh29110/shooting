@@ -119,6 +119,10 @@ var GameLayer = cc.Layer.extend({
      	});
      	this._scoreLabel.textAlign = cc.TEXT_ALIGNMENT_LEFT;
         this.addChild(this._scoreLabel, 1000);
+
+         //test bg move
+        var bg = new Background(0);
+        this.addChild(bg,-100); 
     },
 
     setMainLogic:function()
