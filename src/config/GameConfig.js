@@ -6,6 +6,10 @@ PHS.BackgroundArr = [res.sky_bg,res.flare_jpg];
 //keys
 PHS.KEYS = [];
 
+PHS.FONTCOLOR = "#1f2d96";
+
+PHS.UITAG = 100;
+
 //--------------------------------used----------------------//
 //game state
 PHS.GAME_STATE = {
@@ -28,7 +32,7 @@ PHS.FLAREY = 445;
 PHS.SCALE = 1.5;
 PHS.WIDTH = 800;
 PHS.HEIGHT = 450;
-PHS.FONTCOLOR = "#1f2d96";
+
 PHS.menuHeight = 36;
 PHS.menuWidth = 123;
 

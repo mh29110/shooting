@@ -6,7 +6,14 @@ var res = {
     hole_effect_png : 'res/shoot/hole_effect.png',
     hole_stencil_png : 'res/shoot/hole_stencil.png',
     girl_jpg:'res/shoot/girl.jpg',
+    girl_jpg_1:'res/shoot/girl1.jpg',
     sky_bg:'res/shoot/skybg.jpg',
+    tile_map_bg_tmx:'res/shoot/orthogonal-test2.tmx',
+    tile_map_bg:'res/shoot/fixed-ortho-test2.png',
+    s_cyborg_plist : "res/shoot/cyborg.plist",
+    s_cyborg_png : "res/shoot/cyborg.png",
+    s_cyborg_xml : "res/shoot/cyborg.xml",
+    fire_png:'res/shoot/fire.png',
     //----------------------------used---------------------//
     bgMusic_mp3 : 'res/Music/bgMusic.mp3',
     bgMusic_ogg : 'res/Music/bgMusic.ogg',
@@ -54,6 +61,14 @@ var g_maingame = [
     res.hole_effect_png,
     res.flare_jpg,
     res.sky_bg,
+    res.girl_jpg,
+    res.girl_jpg_1,
+    res.fire_png,
     res.arial_14_png,
-    res.arial_14_fnt
+    res.arial_14_fnt,
+    res.tile_map_bg_tmx,
+    res.tile_map_bg,
+    res.s_cyborg_xml,
+    res.s_cyborg_png,
+    res.s_cyborg_plist
 ];

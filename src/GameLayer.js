@@ -3,6 +3,8 @@ var GameLayer = cc.Layer.extend({
 	_holeStencilContainer:null,
 	_target:null,
 	_scoreLabel:null,
+    _weaponIndex:1,
+    armature:null,
 	ctor:function(){
 		this._super();
 		this.init();
@@ -43,6 +45,11 @@ var GameLayer = cc.Layer.extend({
 		this.onButtonEffect();
 
 		PHS.GameActor.getInstance().score ++;
+
+        ++this._weaponIndex;
+        this._weaponIndex = this._weaponIndex % 4;
+        this.armature.getBone("armInside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
+        this.armature.getBone("armOutside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
 	},
 	onButtonEffect:function(){
         //if (PHS.SOUND) {  annoying 
@@ -109,7 +116,7 @@ var GameLayer = cc.Layer.extend({
     initView:function()
     {
     	this.setMainLogic();
-
+        //UI character
      	this._scoreLabel = new cc.LabelBMFont("Shoot: 0", res.arial_14_fnt);
      	this._scoreLabel.attr({
      		anchorX:0,
@@ -118,24 +125,49 @@ var GameLayer = cc.Layer.extend({
      		y:cc.winSize.height
      	});
      	this._scoreLabel.textAlign = cc.TEXT_ALIGNMENT_LEFT;
-        this.addChild(this._scoreLabel, 1000);
+        this.addChild(this._scoreLabel, PHS.UITAG);
+        //go back to mainmenu
+        var label = new cc.LabelTTF("Go back", "Arial", 21);
+        label.setColor(cc.color(PHS.FONTCOLOR));
+        var back = new cc.MenuItemLabel(label, this.onBackCallback);
+        var menu = new cc.Menu(back);
+        menu.x = cc.winSize.width - 100;
+        menu.y = 60;
+        this.addChild(menu,PHS.UITAG);
 
          //test bg move
-        var bg = new Background(0);
-        this.addChild(bg,-100); 
-    },
+        var bg = new Background();
+        bg.createWithTileMap(0);
+        this.addChild(bg,-PHS.UITAG); 
 
+        //web doesn't support jsb.
+        // var model = new cc.Sprite("res/shoot/orc.c3b");
+        // model.setScale(5);
+        // this.addChild(model,100); 
+
+        this.addWigetCyborg();
+
+        this.addWeatherEffect();
+       
+    },
+    onBackCallback:function (pSender) {
+        var scene = new cc.Scene();
+        scene.addChild(new HelloWorldLayer());
+        cc.director.runScene(new cc.TransitionFade(1.2, scene));
+    },
     setMainLogic:function()
     {
+        var mainContainer = new cc.Layer();
+        this.addChild(mainContainer,0);
 
-    	this._target = new cc.Sprite(res.girl_jpg);
+    	this._target = new cc.Sprite(res.girl_jpg_1);
         this._target.anchorX = 0.5;
         this._target.anchorY = 0.5;
         this._target.scale = 0.5;
         this._target.x = cc.winSize.width/2; 
         this._target.y = cc.winSize.height/2; 
-        this.addChild(this._target, 0);
- 		var targetMask = new cc.Sprite(res.girl_jpg);
+        mainContainer.addChild(this._target, 0);
+ 		var targetMask = new cc.Sprite(res.girl_jpg_1);
         targetMask.anchorX = 0.5;
         targetMask.anchorY = 0.5;
         targetMask.scale = 0.5;
@@ -167,6 +199,28 @@ var GameLayer = cc.Layer.extend({
         var outClipping = new cc.ClippingNode();
         outClipping.stencil = targetMask;
         outClipping.addChild(innerClipping);
-        this.addChild(outClipping);
+        mainContainer.addChild(outClipping);
+    },
+    addWigetCyborg:function(){
+        ccs.armatureDataManager.addArmatureFileInfo(res.s_cyborg_png, res.s_cyborg_plist, res.s_cyborg_xml);
+        this.armature = new ccs.Armature("cyborg");
+        this.armature.getAnimation().playWithIndex(1);
+        this.armature.x = this.armature.width / 2;
+        this.armature.y = this.armature.height/2;
+        this.armature.scale = 1.0;
+        this.armature.getAnimation().setSpeedScale(0.5);
+        this.addChild(this.armature,PHS.UITAG);
+        this._weaponIndex = 0;
+    },
+    addWeatherEffect:function()
+    {
+        var emitter = new cc.ParticleRain();
+        this.addChild(emitter, PHS.UITAG);
+        emitter.life = 4;
+
+        emitter.texture = cc.textureCache.addImage(res.fire_png);
+        emitter.shapeType = cc.ParticleSystem.BALL_SHAPE;
+        emitter.x = cc.winSize.width/2;
+        emitter.y = cc.winSize.height - 100;
     }
 });
