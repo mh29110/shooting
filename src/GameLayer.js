@@ -42,14 +42,30 @@ var GameLayer = cc.Layer.extend({
 
 		hole.scale = holeStencil.scale = 1.5;
 
+        //audio
 		this.onButtonEffect();
 
+        //score data update
 		PHS.GameActor.getInstance().score ++;
 
+        //cyborg changes weapon
         ++this._weaponIndex;
         this._weaponIndex = this._weaponIndex % 4;
         this.armature.getBone("armInside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
         this.armature.getBone("armOutside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
+
+        //particle
+        var emitter = new cc.ParticleMeteor();
+        emitter.x = point.x;
+        emitter.y = point.y;
+        emitter.life = 2;
+        // emitter.speed = 100;
+        emitter.gravity = cc.p(0, -100);
+        emitter.emissionRate = 10;
+        emitter.texture = cc.textureCache.addImage(res.fire_png);
+        emitter.shapeType = cc.ParticleSystem.BALL_SHAPE;
+        this.addChild(emitter,PHS.UITAG);
+        this.schedule(function(dt){this.removeChild(emitter)},2);
 	},
 	onButtonEffect:function(){
         //if (PHS.SOUND) {  annoying 
