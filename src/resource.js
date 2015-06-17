@@ -14,6 +14,7 @@ var res = {
     s_cyborg_png : "res/shoot/cyborg.png",
     s_cyborg_xml : "res/shoot/cyborg.xml",
     fire_png:'res/shoot/fire.png',
+    jack:'res/Captain_Jack.json',
     //----------------------------used---------------------//
     bgMusic_mp3 : 'res/Music/bgMusic.mp3',
     bgMusic_ogg : 'res/Music/bgMusic.ogg',
@@ -32,23 +33,11 @@ var res = {
     shipDestroyEffect_wav : 'res/Music/shipDestroyEffect.wav',
     arial_14_fnt : 'res/arial-14.fnt',
     arial_14_png : 'res/arial-14.png',
-    b01_plist : 'res/b01.plist',
-    b01_png : 'res/b01.png',
     cocos2d_html5_png : 'res/cocos2d-html5.png',
-    explosion_plist : 'res/explosion.plist',
-    explosion_png : 'res/explosion.png',
     gameOver_png : 'res/gameOver.png',
     gameOverBack_png : 'res/gameoverBack.png',
-    level01_tmx : 'res/level01.tmx',
     loading_png : 'res/loading.jpg',
-    logo_png : 'res/logo.png',
-    logoBack_png : 'res/logoBack.png',
     menu_png : 'res/menu.png',
-    menuTitle_png : 'res/menuTitle.png',
-    textureOpaquePack_plist : 'res/textureOpaquePack.plist',
-    textureOpaquePack_png : 'res/textureOpaquePack.png',
-    textureTransparentPack_plist : 'res/textureTransparentPack.plist',
-    textureTransparentPack_png : 'res/textureTransparentPack.png'
 };
 
 var g_mainmenu = [
@@ -70,5 +59,6 @@ var g_maingame = [
     res.tile_map_bg,
     res.s_cyborg_xml,
     res.s_cyborg_png,
-    res.s_cyborg_plist
+    res.s_cyborg_plist,
+    res.jack
 ];

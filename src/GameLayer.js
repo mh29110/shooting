@@ -5,6 +5,7 @@ var GameLayer = cc.Layer.extend({
 	_scoreLabel:null,
     _weaponIndex:1,
     armature:null,
+    _jack:null,
 	ctor:function(){
 		this._super();
 		this.init();
@@ -21,6 +22,11 @@ var GameLayer = cc.Layer.extend({
 	update:function(dt)
 	{
 		this.onUpdateUI();
+
+        var action = this._jack.action;
+        if(!action.isPlaying()){
+            action.gotoFrameAndPlay(0,15);
+        }
 	},
 	onUpdateUI:function(dt)
 	{
@@ -48,7 +54,11 @@ var GameLayer = cc.Layer.extend({
         //score data update
 		PHS.GameActor.getInstance().score ++;
 
-        //cyborg changes weapon
+        this.onPokeEffect(point);
+       
+	},
+    onPokeEffect:function(point){
+         //cyborg changes weapon
         ++this._weaponIndex;
         this._weaponIndex = this._weaponIndex % 4;
         this.armature.getBone("armInside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
@@ -60,13 +70,21 @@ var GameLayer = cc.Layer.extend({
         emitter.y = point.y;
         emitter.life = 2;
         // emitter.speed = 100;
-        emitter.gravity = cc.p(0, -100);
-        emitter.emissionRate = 10;
+        emitter.gravity = cc.p(0, -500);
+        emitter.emissionRate = 5;
         emitter.texture = cc.textureCache.addImage(res.fire_png);
         emitter.shapeType = cc.ParticleSystem.BALL_SHAPE;
         this.addChild(emitter,PHS.UITAG);
-        this.schedule(function(dt){this.removeChild(emitter)},2);
-	},
+        this.schedule(function(dt){this.removeChild(emitter)},1);
+
+        //jack open fire
+        jackNode = this._jack.node;
+        var action = this._jack.action;
+        if(action){
+            // jackNode.runAction(action);
+            action.gotoFrameAndPlay(25,55,false);
+        }
+    },
 	onButtonEffect:function(){
         //if (PHS.SOUND) {  annoying 
         if (false) {
@@ -227,6 +245,17 @@ var GameLayer = cc.Layer.extend({
         this.armature.getAnimation().setSpeedScale(0.5);
         this.addChild(this.armature,PHS.UITAG);
         this._weaponIndex = 0;
+
+         //captain jack
+        this._jack = ccs.load(res.jack);
+        jackNode = this._jack.node;
+        jackNode.x = cc.winSize.width/2;
+        var action = this._jack.action;
+        if(action){
+            jackNode.runAction(action);
+            action.gotoFrameAndPlay(0,15);
+        }
+        this.addChild(jackNode);
     },
     addWeatherEffect:function()
     {

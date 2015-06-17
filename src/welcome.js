@@ -8,9 +8,9 @@ var HelloWorldLayer = cc.Layer.extend({
     {
         var winSize = cc.winSize;
 
-        cc.loader.loadJson("res/example.json", function(error, data){
-            cc.log(data); //data is the json object
-        });
+        // cc.loader.loadJson("res/example.json", function(error, data){
+        //     cc.log(data); //data is the json object
+        // });
       
         var sp = new cc.Sprite(res.loading_png);
         sp.anchorX = 0;
