@@ -30,8 +30,6 @@ PHS.LEVEL = {
 PHS.LOGOY = 350;
 PHS.FLAREY = 445;
 PHS.SCALE = 1.5;
-PHS.WIDTH = 800;
-PHS.HEIGHT = 450;
 
 PHS.menuHeight = 36;
 PHS.menuWidth = 123;
