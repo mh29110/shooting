@@ -25,7 +25,7 @@ var GameLayer = cc.Layer.extend({
 
         var action = this._jack.action;
         if(!action.isPlaying()){
-            action.gotoFrameAndPlay(0,15);
+            action.gotoFrameAndPlay(0,15,0,true);
         }
 	},
 	onUpdateUI:function(dt)
@@ -75,14 +75,16 @@ var GameLayer = cc.Layer.extend({
         emitter.texture = cc.textureCache.addImage(res.fire_png);
         emitter.shapeType = cc.ParticleSystem.BALL_SHAPE;
         this.addChild(emitter,PHS.UITAG);
-        this.schedule(function(dt){this.removeChild(emitter)},1);
+        this.scheduleOnce(function(dt){
+        	emitter.removeFromParent();
+        },1);
 
         //jack open fire
         jackNode = this._jack.node;
         var action = this._jack.action;
         if(action){
             // jackNode.runAction(action);
-            action.gotoFrameAndPlay(25,55,false);
+            action.gotoFrameAndPlay(25,55,25,false);//严格执行4参数,否则原生平台会出bug
         }
     },
 	onButtonEffect:function(){
@@ -253,7 +255,7 @@ var GameLayer = cc.Layer.extend({
         var action = this._jack.action;
         if(action){
             jackNode.runAction(action);
-            action.gotoFrameAndPlay(0,15);
+            action.gotoFrameAndPlay(0,15,0,true);
         }
         this.addChild(jackNode);
     },

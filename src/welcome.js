@@ -15,7 +15,7 @@ var HelloWorldLayer = cc.Layer.extend({
         var sp = new cc.Sprite(res.loading_png);
         sp.anchorX = 0;
         sp.anchorY = 0;
-        sp.scaleX = 1.5;
+        sp.scale = 1.6;
         this.addChild(sp, 0);
 
         var singalHeight = PHS.menuHeight;
@@ -33,7 +33,7 @@ var HelloWorldLayer = cc.Layer.extend({
         }.bind(this));
 
         var menu = new cc.Menu(newGameItem);
-        this.addChild(menu,1,2);
+        this.addChild(menu,1);
         menu.x = winSize.width/2;
         menu.y = winSize.height/2;
 
