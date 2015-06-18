@@ -3,7 +3,7 @@ var flareEffect = function (flare,target, callback) {
     flare.setBlendFunc(cc.SRC_ALPHA, cc.ONE);
     flare.attr({
 	    x: -45,
-	    y: PHS.FLAREY,
+	    y: 345,
 	    visible: true,
 	    opacity: 0,
 		rotation: -120,

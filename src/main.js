@@ -71,6 +71,15 @@ cc.game.onStart = function(){
     }
     // cc.screen.requestFullScreen("WTF", function(){});
 
+   if( !cc.sys.isNative ){
+        //移除加载动画
+        cc.log("remove loading.")
+        if (document.getElementById("loadingDiv")) {
+            document.body.removeChild(document.getElementById("loadingDiv"));
+        }
+    }
+
+
     //load resource
     cc.LoaderScene.preload(g_mainmenu, function () {
         cc.director.runScene(new HelloWorldScene());

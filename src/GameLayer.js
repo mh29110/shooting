@@ -4,7 +4,7 @@ var GameLayer = cc.Layer.extend({
 	_target:null,
 	_scoreLabel:null,
     _weaponIndex:1,
-    armature:null,
+    _armature:null,
     _jack:null,
 	ctor:function(){
 		this._super();
@@ -61,8 +61,8 @@ var GameLayer = cc.Layer.extend({
          //cyborg changes weapon
         ++this._weaponIndex;
         this._weaponIndex = this._weaponIndex % 4;
-        this.armature.getBone("armInside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
-        this.armature.getBone("armOutside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
+        this._armature.getBone("armInside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
+        this._armature.getBone("armOutside").getChildArmature().getAnimation().playWithIndex(this._weaponIndex);
 
         //particle
         var emitter = new cc.ParticleMeteor();
@@ -239,13 +239,14 @@ var GameLayer = cc.Layer.extend({
     },
     addWigetCyborg:function(){
         ccs.armatureDataManager.addArmatureFileInfo(res.s_cyborg_png, res.s_cyborg_plist, res.s_cyborg_xml);
-        this.armature = new ccs.Armature("cyborg");
-        this.armature.getAnimation().playWithIndex(1);
-        this.armature.x = this.armature.width / 2;
-        this.armature.y = this.armature.height/2;
-        this.armature.scale = 1.0;
-        this.armature.getAnimation().setSpeedScale(0.5);
-        this.addChild(this.armature,PHS.UITAG);
+        this._armature = new ccs.Armature("cyborg");
+        // this._armature.getAnimation().playWithIndex(1);
+        this._armature.getAnimation().play("run");
+        this._armature.x = this._armature.width / 2;
+        this._armature.y = this._armature.height/2;
+        this._armature.scale = 1.0;
+        this._armature.getAnimation().setSpeedScale(0.5);
+        this.addChild(this._armature,PHS.UITAG);
         this._weaponIndex = 0;
 
          //captain jack
