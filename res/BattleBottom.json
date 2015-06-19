@@ -1,0 +1,1750 @@
+{
+  "ID": "bc93c522-b328-4153-81bf-204e279c954c",
+  "Version": "2.3.0.0",
+  "Name": "BattleBottom",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 54,
+        "Speed": 0.4,
+        "Timelines": [
+          {
+            "ActionTag": 60739430,
+            "Property": "ActionValue",
+            "Frames": [
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              },
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 60739430,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 72.0,
+                "Y": 34.794,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 72.0,
+                "Y": 34.794,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 60739430,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 60739430,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1559071916,
+            "Property": "ActionValue",
+            "Frames": [
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              },
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1559071916,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 192.0,
+                "Y": 21.006,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 192.0,
+                "Y": 21.006,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1559071916,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1559071916,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1149704304,
+            "Property": "ActionValue",
+            "Frames": [
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              },
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1149704304,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 320.0,
+                "Y": 34.992,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 320.0,
+                "Y": 34.992,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1149704304,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1149704304,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1769260672,
+            "Property": "ActionValue",
+            "Frames": [
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              },
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 49,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1769260672,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 448.0,
+                "Y": 41.994,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 448.0,
+                "Y": 41.994,
+                "FrameIndex": 49,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1769260672,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 49,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1769260672,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 49,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1604446430,
+            "Property": "ActionValue",
+            "Frames": [
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              },
+              {
+                "InnerActionType": "LoopAction",
+                "CurrentAniamtionName": "-- ALL --",
+                "SingleFrameIndex": 0,
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "InnerActionFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1604446430,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 576.0,
+                "Y": 32.004,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 576.0,
+                "Y": 32.004,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1604446430,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1604446430,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 54,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1145,
+        "Children": [
+          {
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2401,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Captain_Jack.json",
+                  "Plist": ""
+                },
+                "InnerActionSpeed": 0.4,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 72.0,
+                  "Y": 34.794
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1125,
+                  "Y": 0.1933
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 72.0,
+                "RightMargin": 568.0,
+                "TopMargin": 145.206,
+                "BottomMargin": 34.794,
+                "Tag": 2403,
+                "ActionTag": 60739430,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ProjectNode_1",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Huchey.json",
+                  "Plist": ""
+                },
+                "InnerActionSpeed": 0.4,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 192.0,
+                  "Y": 21.006
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.1167
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 192.0,
+                "RightMargin": 448.0,
+                "TopMargin": 158.994,
+                "BottomMargin": 21.006,
+                "Tag": 2594,
+                "ActionTag": -1559071916,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ProjectNode_4",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Jones.json",
+                  "Plist": ""
+                },
+                "InnerActionSpeed": 0.4,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 320.0,
+                  "Y": 34.992
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1944
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 320.0,
+                "RightMargin": 320.0,
+                "TopMargin": 145.008,
+                "BottomMargin": 34.992,
+                "Tag": 2723,
+                "ActionTag": 1149704304,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ProjectNode_6",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Pharaoh.json",
+                  "Plist": ""
+                },
+                "InnerActionSpeed": 0.4,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 448.0,
+                  "Y": 41.994
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7,
+                  "Y": 0.2333
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 448.0,
+                "RightMargin": 192.0,
+                "TopMargin": 138.006,
+                "BottomMargin": 41.994,
+                "Tag": 2793,
+                "ActionTag": -1769260672,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ProjectNode_7",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Cat_Queen.json",
+                  "Plist": ""
+                },
+                "InnerActionSpeed": 0.4,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 576.0,
+                  "Y": 32.004
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.1778
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 576.0,
+                "RightMargin": 64.0,
+                "TopMargin": 147.996,
+                "BottomMargin": 32.004,
+                "Tag": 2837,
+                "ActionTag": -1604446430,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ProjectNode_8",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS12.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 350,
+                "Scale9Height": 86,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57.6,
+                  "Y": 15.606
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.09,
+                  "Y": 0.0867
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.45
+                },
+                "LeftMargin": -102.4,
+                "RightMargin": 422.4,
+                "TopMargin": 123.894,
+                "BottomMargin": -24.894,
+                "Tag": 2897,
+                "Children": [
+                  {
+                    "ImageFileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS09.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 176.0,
+                      "Y": 42.12
+                    },
+                    "Scale": {
+                      "ScaleX": 2.4,
+                      "ScaleY": 2.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.55,
+                      "Y": 0.52
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2686,
+                      "Y": 0.1163
+                    },
+                    "LeftMargin": 133.024,
+                    "RightMargin": 101.024,
+                    "TopMargin": 34.1698,
+                    "BottomMargin": 37.4098,
+                    "Tag": 2902,
+                    "ActionTag": -230211289,
+                    "Size": {
+                      "X": 85.952,
+                      "Y": 9.4203
+                    },
+                    "Name": "LoadingBar_1",
+                    "ctype": "LoadingBarObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "5",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.952,
+                      "Y": 45.3762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1186,
+                      "Y": 0.5602
+                    },
+                    "PreSize": {
+                      "X": 0.04,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 30.952,
+                    "RightMargin": 275.048,
+                    "TopMargin": 26.6238,
+                    "BottomMargin": 36.3762,
+                    "Tag": 2903,
+                    "ActionTag": 2080470882,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "800",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.744,
+                      "Y": 42.3468
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5742,
+                      "Y": 0.5228
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 162.744,
+                    "RightMargin": 115.256,
+                    "TopMargin": 29.6532,
+                    "BottomMargin": 33.3468,
+                    "Tag": 2904,
+                    "ActionTag": -1097146647,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_0",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1125064843,
+                "Size": {
+                  "X": 320.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS12.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 350,
+                "Scale9Height": 86,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 188.736,
+                  "Y": 15.606
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2949,
+                  "Y": 0.0867
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.45
+                },
+                "LeftMargin": 28.736,
+                "RightMargin": 291.264,
+                "TopMargin": 123.894,
+                "BottomMargin": -24.894,
+                "Tag": 2905,
+                "Children": [
+                  {
+                    "ProgressInfo": 100,
+                    "ImageFileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS09.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 176.0,
+                      "Y": 42.12
+                    },
+                    "Scale": {
+                      "ScaleX": 2.4,
+                      "ScaleY": 2.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.55,
+                      "Y": 0.52
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2686,
+                      "Y": 0.1163
+                    },
+                    "LeftMargin": 133.024,
+                    "RightMargin": 101.024,
+                    "TopMargin": 34.1698,
+                    "BottomMargin": 37.4098,
+                    "Tag": 2906,
+                    "ActionTag": -1316781588,
+                    "Size": {
+                      "X": 85.952,
+                      "Y": 9.4203
+                    },
+                    "Name": "LoadingBar_1_3",
+                    "ctype": "LoadingBarObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "6",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.952,
+                      "Y": 45.3762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1186,
+                      "Y": 0.5602
+                    },
+                    "PreSize": {
+                      "X": 0.04,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 30.952,
+                    "RightMargin": 275.048,
+                    "TopMargin": 26.6238,
+                    "BottomMargin": 36.3762,
+                    "Tag": 2907,
+                    "ActionTag": 1562317987,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_4",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "2000",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.744,
+                      "Y": 42.3468
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5742,
+                      "Y": 0.5228
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 155.744,
+                    "RightMargin": 108.256,
+                    "TopMargin": 29.6532,
+                    "BottomMargin": 33.3468,
+                    "Tag": 2908,
+                    "ActionTag": 1311853542,
+                    "Size": {
+                      "X": 56.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_0_6",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -253309671,
+                "Size": {
+                  "X": 320.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_2_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS12.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 350,
+                "Scale9Height": 86,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 319.872,
+                  "Y": 15.606
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4998,
+                  "Y": 0.0867
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.45
+                },
+                "LeftMargin": 159.872,
+                "RightMargin": 160.128,
+                "TopMargin": 123.894,
+                "BottomMargin": -24.894,
+                "Tag": 2909,
+                "Children": [
+                  {
+                    "ProgressInfo": 100,
+                    "ImageFileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS09.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 176.0,
+                      "Y": 42.12
+                    },
+                    "Scale": {
+                      "ScaleX": 2.4,
+                      "ScaleY": 2.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.55,
+                      "Y": 0.52
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2686,
+                      "Y": 0.1163
+                    },
+                    "LeftMargin": 133.024,
+                    "RightMargin": 101.024,
+                    "TopMargin": 34.1698,
+                    "BottomMargin": 37.4098,
+                    "Tag": 2910,
+                    "ActionTag": 749235715,
+                    "Size": {
+                      "X": 85.952,
+                      "Y": 9.4203
+                    },
+                    "Name": "LoadingBar_1_5",
+                    "ctype": "LoadingBarObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "7",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.952,
+                      "Y": 45.3762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1186,
+                      "Y": 0.5602
+                    },
+                    "PreSize": {
+                      "X": 0.04,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 30.952,
+                    "RightMargin": 275.048,
+                    "TopMargin": 26.6238,
+                    "BottomMargin": 36.3762,
+                    "Tag": 2911,
+                    "ActionTag": -344650672,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_8",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "2200",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.744,
+                      "Y": 42.3468
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5742,
+                      "Y": 0.5228
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 155.744,
+                    "RightMargin": 108.256,
+                    "TopMargin": 29.6532,
+                    "BottomMargin": 33.3468,
+                    "Tag": 2912,
+                    "ActionTag": 2658048,
+                    "Size": {
+                      "X": 56.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_0_10",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 618758730,
+                "Size": {
+                  "X": 320.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_2_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS12.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 350,
+                "Scale9Height": 86,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 451.008,
+                  "Y": 15.606
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7047,
+                  "Y": 0.0867
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.45
+                },
+                "LeftMargin": 291.008,
+                "RightMargin": 28.992,
+                "TopMargin": 123.894,
+                "BottomMargin": -24.894,
+                "Tag": 2913,
+                "Children": [
+                  {
+                    "ImageFileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS09.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 176.0,
+                      "Y": 42.12
+                    },
+                    "Scale": {
+                      "ScaleX": 2.4,
+                      "ScaleY": 2.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.55,
+                      "Y": 0.52
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2686,
+                      "Y": 0.1163
+                    },
+                    "LeftMargin": 133.024,
+                    "RightMargin": 101.024,
+                    "TopMargin": 34.1698,
+                    "BottomMargin": 37.4098,
+                    "Tag": 2914,
+                    "ActionTag": -1184987794,
+                    "Size": {
+                      "X": 85.952,
+                      "Y": 9.4203
+                    },
+                    "Name": "LoadingBar_1_7",
+                    "ctype": "LoadingBarObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "5",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.952,
+                      "Y": 45.3762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1186,
+                      "Y": 0.5602
+                    },
+                    "PreSize": {
+                      "X": 0.04,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 30.952,
+                    "RightMargin": 275.048,
+                    "TopMargin": 26.6238,
+                    "BottomMargin": 36.3762,
+                    "Tag": 2915,
+                    "ActionTag": -629805531,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_12",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "1100",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.744,
+                      "Y": 42.3468
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5742,
+                      "Y": 0.5228
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 155.744,
+                    "RightMargin": 108.256,
+                    "TopMargin": 29.6532,
+                    "BottomMargin": 33.3468,
+                    "Tag": 2916,
+                    "ActionTag": 1420488448,
+                    "Size": {
+                      "X": 56.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_0_14",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 696724946,
+                "Size": {
+                  "X": 320.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_2_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS12.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 350,
+                "Scale9Height": 86,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 582.144,
+                  "Y": 15.606
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9096,
+                  "Y": 0.0867
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.45
+                },
+                "LeftMargin": 422.144,
+                "RightMargin": -102.144,
+                "TopMargin": 123.894,
+                "BottomMargin": -24.894,
+                "Tag": 2917,
+                "Children": [
+                  {
+                    "ProgressInfo": 20,
+                    "ImageFileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS09.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 176.0,
+                      "Y": 42.12
+                    },
+                    "Scale": {
+                      "ScaleX": 2.4,
+                      "ScaleY": 2.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.55,
+                      "Y": 0.52
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2686,
+                      "Y": 0.1163
+                    },
+                    "LeftMargin": 133.024,
+                    "RightMargin": 101.024,
+                    "TopMargin": 34.1698,
+                    "BottomMargin": 37.4098,
+                    "Tag": 2918,
+                    "ActionTag": 1974099097,
+                    "Size": {
+                      "X": 85.952,
+                      "Y": 9.4203
+                    },
+                    "Name": "LoadingBar_1_9",
+                    "ctype": "LoadingBarObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "5",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.952,
+                      "Y": 45.3762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1186,
+                      "Y": 0.5602
+                    },
+                    "PreSize": {
+                      "X": 0.04,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 30.952,
+                    "RightMargin": 275.048,
+                    "TopMargin": 26.6238,
+                    "BottomMargin": 36.3762,
+                    "Tag": 2919,
+                    "ActionTag": -1340728418,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_16",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "200",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.744,
+                      "Y": 42.3468
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5742,
+                      "Y": 0.5228
+                    },
+                    "PreSize": {
+                      "X": 0.48,
+                      "Y": 0.2093
+                    },
+                    "LeftMargin": 162.744,
+                    "RightMargin": 115.256,
+                    "TopMargin": 29.6532,
+                    "BottomMargin": 33.3468,
+                    "Tag": 2920,
+                    "ActionTag": 1243213875,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlasLabel_1_0_18",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -395274980,
+                "Size": {
+                  "X": 320.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_2_3",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 953659852,
+            "Size": {
+              "X": 640.0,
+              "Y": 180.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 180.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BattleScene/BS09.png",
+        "BattleScene/BS12.png",
+        "Cat_Queen.json",
+        "Pharaoh.json",
+        "Jones.json",
+        "Huchey.json",
+        "Captain_Jack.json",
+        "Default/TextAtlas.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

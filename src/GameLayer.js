@@ -1,3 +1,5 @@
+
+
 var GameLayer = cc.Layer.extend({
 	_breakedLayer:null,
 	_holeStencilContainer:null,
@@ -188,7 +190,7 @@ var GameLayer = cc.Layer.extend({
     },
     onBackCallback:function (pSender) {
         var scene = new cc.Scene();
-        scene.addChild(new HelloWorldLayer());
+        scene.addChild(new WelcomeLayer());
         cc.director.runScene(new cc.TransitionFade(1.2, scene));
     },
     setMainLogic:function()

@@ -1,6 +1,6 @@
 {
   "ID": "a216914d-c0d7-49f6-8da3-6a19dd0dc55f",
-  "Version": "2.2.9.0",
+  "Version": "2.3.0.0",
   "Name": "Captain_Jack",
   "Content": {
     "Content": {
@@ -18382,7 +18382,20 @@
         ],
         "ctype": "TimelineActionData"
       },
-      "AnimationList": [],
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 10,
+          "Name": "stand",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 10,
+          "EndIndex": 54,
+          "Name": "attack",
+          "ctype": "AnimationInfoData"
+        }
+      ],
       "ObjectData": {
         "Children": [
           {
@@ -19693,8 +19706,8 @@
               "Y": 97.9
             },
             "Scale": {
-              "ScaleX": 0.2359,
-              "ScaleY": 0.2359
+              "ScaleX": 0.2621,
+              "ScaleY": 0.2621
             },
             "CColor": {},
             "IconVisible": false,
@@ -19771,11 +19784,11 @@
             },
             "Position": {
               "X": -7.55,
-              "Y": 76.65
+              "Y": 77.15
             },
             "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
+              "ScaleX": 0.8172,
+              "ScaleY": 0.8172
             },
             "CColor": {},
             "IconVisible": false,
@@ -19789,8 +19802,8 @@
             },
             "LeftMargin": -7.55,
             "RightMargin": 7.55,
-            "TopMargin": -76.65,
-            "BottomMargin": 76.65,
+            "TopMargin": -77.15,
+            "BottomMargin": 77.15,
             "Children": [
               {
                 "FileData": {
@@ -19942,8 +19955,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": -8.1,
-              "Y": 72.95
+              "X": -7.75,
+              "Y": 72.55
             },
             "Scale": {
               "ScaleX": 0.8172,
@@ -19959,10 +19972,10 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -8.1,
-            "RightMargin": 8.1,
-            "TopMargin": -72.95,
-            "BottomMargin": 72.95,
+            "LeftMargin": -7.75,
+            "RightMargin": 7.75,
+            "TopMargin": -72.55,
+            "BottomMargin": 72.55,
             "Children": [
               {
                 "FileData": {
@@ -20469,7 +20482,6 @@
                   "Src": 1,
                   "Dst": 771
                 },
-                "VisibleForFrame": false,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
@@ -20552,6 +20564,36 @@
         "Name": "Captain_Jack",
         "ctype": "SingleNodeObjectData"
       },
+      "UsedResources": [
+        "Captain_Jack_png/pirate_bqqh_00034.png",
+        "Captain_Jack_png/pirate_bqqh_00033.png",
+        "Captain_Jack_png/pirate_bqqh_00032.png",
+        "Captain_Jack_png/pirate_bqqh_00031.png",
+        "Captain_Jack_png/captain_jack_sb_00035.png",
+        "Captain_Jack_png/captain_jack_shape_0.png",
+        "Captain_Jack_png/captain_jack_head5.png",
+        "Captain_Jack_png/captain_jack_pants.png",
+        "Captain_Jack_png/captain_jack_body.png",
+        "Captain_Jack_png/captain_jack_arm_right.png",
+        "Captain_Jack_png/captain_jack_leg_left.png",
+        "Captain_Jack_png/captain_jack_foot_right.png",
+        "Captain_Jack_png/captain_jack_hair.png",
+        "Captain_Jack_png/pirate_bqqh_00055.png",
+        "Captain_Jack_png/pirate_bqqh_00044.png",
+        "Captain_Jack_png/pirate_bqqh_00043.png",
+        "Captain_Jack_png/captain_jack_head1.png",
+        "Captain_Jack_png/captain_jack_head6.png",
+        "Captain_Jack_png/captain_jack_hand_knife_right.png",
+        "Captain_Jack_png/captain_jack_foot_left.png",
+        "Captain_Jack_png/captain_jack_arm_left.png",
+        "Captain_Jack_png/pirate_bqqh_00045.png",
+        "Captain_Jack_png/pirate_bqqh_00046.png",
+        "Captain_Jack_png/captain_jack_head4.png",
+        "Captain_Jack_png/captain_jack_head2.png",
+        "Captain_Jack_png/captain_jack_head3.png",
+        "Captain_Jack_png/captain_jack_hand_gun_left.png",
+        "Captain_Jack_png/captain_jack_leg_right.png"
+      ],
       "ctype": "GameProjectData"
     }
   },

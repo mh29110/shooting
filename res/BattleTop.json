@@ -1,0 +1,1067 @@
+{
+  "ID": "a8749092-50cb-45cf-a0e8-4c01317e3e85",
+  "Version": "2.3.0.0",
+  "Name": "BattleTop",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1597,
+        "Children": [
+          {
+            "BackColorAlpha": 100,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "EndColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ColorVector": {
+              "ScaleX": 1.0
+            },
+            "Scale9Width": 640,
+            "Scale9Height": 140,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1599,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS11.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 640,
+                "Scale9Height": 140,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.0,
+                  "Y": 70.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 1618,
+                "ActionTag": -1709045464,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 140.0
+                },
+                "Name": "BackGround",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS06.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS05.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 36,
+                "DisplayState": false,
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0,
+                "ShadowOffsetY": 0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 604.926,
+                  "Y": 90.2168
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9452,
+                  "Y": 0.6444
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.0719,
+                  "Y": 0.2571
+                },
+                "LeftMargin": 581.918,
+                "RightMargin": 12.066,
+                "TopMargin": 31.7862,
+                "BottomMargin": 72.2198,
+                "Tag": 1600,
+                "ActionTag": -1229430810,
+                "Size": {
+                  "X": 46.016,
+                  "Y": 35.994
+                },
+                "Name": "Button_Pause_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS04.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS03.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 61,
+                "Scale9Height": 59,
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0,
+                "ShadowOffsetY": 0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 597.7885,
+                  "Y": 31.3159
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.934,
+                  "Y": 0.2237
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.0953,
+                  "Y": 0.4214
+                },
+                "LeftMargin": 567.2925,
+                "RightMargin": 11.7155,
+                "TopMargin": 79.1861,
+                "BottomMargin": 1.8179,
+                "Tag": 1601,
+                "ActionTag": -1403054345,
+                "Size": {
+                  "X": 60.992,
+                  "Y": 58.996
+                },
+                "Name": "Button_Blast_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS13.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 188,
+                "Scale9Height": 54,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 116.8748,
+                  "Y": 90.0039
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1826,
+                  "Y": 0.6429
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2937,
+                  "Y": 0.3857
+                },
+                "LeftMargin": 22.8908,
+                "RightMargin": 429.1412,
+                "TopMargin": 22.9971,
+                "BottomMargin": 63.0049,
+                "Tag": 1605,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Cocos ",
+                    "OutlineSize": 0,
+                    "ShadowOffsetX": 0,
+                    "ShadowOffsetY": 0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 103.5103,
+                      "Y": 28.5621
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5507,
+                      "Y": 0.5289
+                    },
+                    "PreSize": {
+                      "X": 0.3298,
+                      "Y": 0.4259
+                    },
+                    "LeftMargin": 72.5103,
+                    "RightMargin": 53.4577,
+                    "TopMargin": 13.9359,
+                    "BottomMargin": 17.0621,
+                    "Tag": 1606,
+                    "ActionTag": -960767710,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 23.0
+                    },
+                    "Name": "Text_Starname_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Common/Cn20.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 68,
+                    "Scale9Height": 57,
+                    "AnchorPoint": {
+                      "ScaleX": 0.4384,
+                      "ScaleY": 0.4641
+                    },
+                    "Position": {
+                      "X": 20.1467,
+                      "Y": 29.4344
+                    },
+                    "Scale": {
+                      "ScaleX": 1.1271,
+                      "ScaleY": 1.2212
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1072,
+                      "Y": 0.5451
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.3617,
+                      "Y": 1.0556
+                    },
+                    "LeftMargin": -9.6592,
+                    "RightMargin": 129.6393,
+                    "TopMargin": -5.9829,
+                    "BottomMargin": 2.9806,
+                    "Tag": 1607,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "234\n ",
+                        "OutlineSize": 0,
+                        "ShadowOffsetX": 0,
+                        "ShadowOffsetY": 0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 33.8974,
+                          "Y": 16.7339
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4986,
+                          "Y": 0.2936
+                        },
+                        "PreSize": {
+                          "X": 0.4853,
+                          "Y": 0.807
+                        },
+                        "LeftMargin": 17.3974,
+                        "RightMargin": 17.5906,
+                        "TopMargin": 17.2664,
+                        "BottomMargin": -6.2661,
+                        "Tag": 1608,
+                        "ActionTag": 487847966,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 46.0
+                        },
+                        "Name": "Text_Star_4",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1344487532,
+                    "ZOrder": 2,
+                    "Size": {
+                      "X": 67.988,
+                      "Y": 57.0003
+                    },
+                    "Name": "ImageView_Star_7",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -56205207,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 187.968,
+                  "Y": 53.998
+                },
+                "Name": "ImageView_Starbg_8",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS13.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 188,
+                "Scale9Height": 54,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 310.4388,
+                  "Y": 93.0439
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4851,
+                  "Y": 0.6646
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2937,
+                  "Y": 0.3857
+                },
+                "LeftMargin": 216.4548,
+                "RightMargin": 235.5772,
+                "TopMargin": 19.9571,
+                "BottomMargin": 66.0449,
+                "Tag": 1602,
+                "Children": [
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "12345\n",
+                    "StartChar": "/",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 45.7775,
+                      "Y": 28.6084
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2435,
+                      "Y": 0.5298
+                    },
+                    "PreSize": {
+                      "X": 0.4521,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 45.7775,
+                    "RightMargin": 57.1905,
+                    "TopMargin": 16.3896,
+                    "BottomMargin": 19.6084,
+                    "Tag": 1603,
+                    "ActionTag": 142257462,
+                    "ZOrder": 3,
+                    "Size": {
+                      "X": 85.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlastLabel_Coincount_2",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Common/Cn16.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 57,
+                    "Scale9Height": 53,
+                    "AnchorPoint": {
+                      "ScaleX": 0.4384,
+                      "ScaleY": 0.4641
+                    },
+                    "Position": {
+                      "X": 13.3689,
+                      "Y": 29.696
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0711,
+                      "Y": 0.5499
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.3032,
+                      "Y": 0.9815
+                    },
+                    "LeftMargin": -11.6164,
+                    "RightMargin": 142.5925,
+                    "TopMargin": -4.1002,
+                    "BottomMargin": 5.0992,
+                    "Tag": 1604,
+                    "ActionTag": -1717639845,
+                    "ZOrder": 2,
+                    "Size": {
+                      "X": 56.9919,
+                      "Y": 52.999
+                    },
+                    "Name": "ImageView_Coin_3",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 289386235,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 187.968,
+                  "Y": 53.998
+                },
+                "Name": "ImageView_Coinbg_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS13.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 188,
+                "Scale9Height": 54,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.9266,
+                  "Y": 91.524
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7655,
+                  "Y": 0.6537
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2937,
+                  "Y": 0.3857
+                },
+                "LeftMargin": 395.9426,
+                "RightMargin": 56.0894,
+                "TopMargin": 21.477,
+                "BottomMargin": 64.525,
+                "Tag": 1609,
+                "Children": [
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "2345",
+                    "StartChar": "/",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 63.4623,
+                      "Y": 26.8739
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.3376,
+                      "Y": 0.4977
+                    },
+                    "PreSize": {
+                      "X": 0.2979,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 63.4623,
+                    "RightMargin": 68.5057,
+                    "TopMargin": 18.1241,
+                    "BottomMargin": 17.8739,
+                    "Tag": 1610,
+                    "ActionTag": 913341590,
+                    "ZOrder": 3,
+                    "Size": {
+                      "X": 56.0,
+                      "Y": 18.0
+                    },
+                    "Name": "AtlastLabel_Micoincount_4",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Common/Cn19.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 62,
+                    "Scale9Height": 62,
+                    "AnchorPoint": {
+                      "ScaleX": 0.4384,
+                      "ScaleY": 0.4641
+                    },
+                    "Position": {
+                      "X": 21.0098,
+                      "Y": 27.9113
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1118,
+                      "Y": 0.5169
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.3298,
+                      "Y": 1.1481
+                    },
+                    "LeftMargin": -6.1674,
+                    "RightMargin": 132.1436,
+                    "TopMargin": -7.1365,
+                    "BottomMargin": -0.8606,
+                    "Tag": 1611,
+                    "ActionTag": -746236062,
+                    "ZOrder": 2,
+                    "Size": {
+                      "X": 61.9918,
+                      "Y": 61.9951
+                    },
+                    "Name": "ImageView_Coin_11",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1103673007,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 187.968,
+                  "Y": 53.998
+                },
+                "Name": "ImageView_Micoinbg_12",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS08.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 180,
+                "Scale9Height": 62,
+                "AnchorPoint": {
+                  "ScaleX": 0.4463,
+                  "ScaleY": 0.5271
+                },
+                "Position": {
+                  "X": 77.7892,
+                  "Y": 37.9661
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1215,
+                  "Y": 0.2712
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2813,
+                  "Y": 0.4429
+                },
+                "LeftMargin": -2.5591,
+                "RightMargin": 462.5271,
+                "TopMargin": 72.7113,
+                "BottomMargin": 5.2827,
+                "Tag": 1612,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 52,
+                    "Scale9Height": 43,
+                    "AnchorPoint": {
+                      "ScaleY": 0.2683
+                    },
+                    "Position": {
+                      "X": -51.6446,
+                      "Y": 17.4886
+                    },
+                    "Scale": {
+                      "ScaleX": 1.6,
+                      "ScaleY": 1.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.2869,
+                      "Y": 0.282
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2889,
+                      "Y": 0.6935
+                    },
+                    "LeftMargin": -51.6446,
+                    "RightMargin": 179.6654,
+                    "TopMargin": 13.0534,
+                    "BottomMargin": 5.9514,
+                    "Tag": 1613,
+                    "ActionTag": 1224882397,
+                    "Size": {
+                      "X": 52.0112,
+                      "Y": 43.0012
+                    },
+                    "Name": "ImageView_Yellow_15",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "0/5",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 87.5656,
+                      "Y": 34.0693
+                    },
+                    "Scale": {
+                      "ScaleX": 1.8,
+                      "ScaleY": 1.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4864,
+                      "Y": 0.5495
+                    },
+                    "PreSize": {
+                      "X": 0.2333,
+                      "Y": 0.2903
+                    },
+                    "LeftMargin": 66.5656,
+                    "RightMargin": 71.4664,
+                    "TopMargin": 18.9367,
+                    "BottomMargin": 25.0693,
+                    "Tag": 1614,
+                    "ActionTag": 495631961,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 18.0
+                    },
+                    "Name": "TextAtlas_Yellowcount_6",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1560899513,
+                "Size": {
+                  "X": 180.032,
+                  "Y": 62.006
+                },
+                "Name": "ImageView_Yellowbg_16",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BattleScene/BS08.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 180,
+                "Scale9Height": 62,
+                "AnchorPoint": {
+                  "ScaleX": 0.5776,
+                  "ScaleY": 0.5387
+                },
+                "Position": {
+                  "X": 208.7654,
+                  "Y": 38.4214
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3262,
+                  "Y": 0.2744
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2813,
+                  "Y": 0.4429
+                },
+                "LeftMargin": 104.7789,
+                "RightMargin": 355.1891,
+                "TopMargin": 72.9752,
+                "BottomMargin": 5.0188,
+                "Tag": 1615,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "BattleScene/BS02.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 47,
+                    "Scale9Height": 39,
+                    "AnchorPoint": {
+                      "ScaleX": 0.3656,
+                      "ScaleY": 0.3335
+                    },
+                    "Position": {
+                      "X": -19.1343,
+                      "Y": 25.6761
+                    },
+                    "Scale": {
+                      "ScaleX": 1.6,
+                      "ScaleY": 1.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.1063,
+                      "Y": 0.4141
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2611,
+                      "Y": 0.629
+                    },
+                    "LeftMargin": -36.3198,
+                    "RightMargin": 169.3454,
+                    "TopMargin": 10.3352,
+                    "BottomMargin": 12.669,
+                    "Tag": 1616,
+                    "ActionTag": -1484361435,
+                    "Size": {
+                      "X": 47.0064,
+                      "Y": 39.0018
+                    },
+                    "Name": "ImageView_Red_19",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 14,
+                    "CharHeight": 18,
+                    "LabelText": "0/4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Default",
+                      "Path": "Default/TextAtlas.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 82.1946,
+                      "Y": 34.0533
+                    },
+                    "Scale": {
+                      "ScaleX": 1.8,
+                      "ScaleY": 1.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4566,
+                      "Y": 0.5492
+                    },
+                    "PreSize": {
+                      "X": 0.2333,
+                      "Y": 0.2903
+                    },
+                    "LeftMargin": 61.1946,
+                    "RightMargin": 76.8374,
+                    "TopMargin": 18.9527,
+                    "BottomMargin": 25.0533,
+                    "Tag": 1617,
+                    "ActionTag": -1171923790,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 18.0
+                    },
+                    "Name": "TextAtlas_Redcount_8",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 262460380,
+                "Size": {
+                  "X": 180.032,
+                  "Y": 62.006
+                },
+                "Name": "ImageView_Redbg_20",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -331087436,
+            "ZOrder": 1,
+            "Size": {
+              "X": 640.0,
+              "Y": 140.0
+            },
+            "Name": "Panel_Infobox_3",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 140.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BattleScene/BS01.png",
+        "BattleScene/BS08.png",
+        "Common/Cn19.png",
+        "Common/Cn16.png",
+        "Default/TextAtlas.png",
+        "Common/Cn20.png",
+        "BattleScene/BS03.png",
+        "BattleScene/BS04.png",
+        "Default/Button_Disable.png",
+        "Default/Button_Normal.png",
+        "BattleScene/BS05.png",
+        "BattleScene/BS06.png",
+        "BattleScene/BS11.png",
+        "BattleScene/BS02.png",
+        "BattleScene/BS13.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

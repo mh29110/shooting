@@ -18,6 +18,7 @@
         "src/GameLayer.js",
         "src/GameActor.js",
         "src/phantomLib/PHBaseLayer.js",
-        "src/Background.js"
+        "src/Background.js",
+        "src/BattleScene.js"
     ]
 }

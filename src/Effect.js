@@ -1,4 +1,4 @@
-var flareEffect = function (flare,target, callback) {
+var flareEffect = function (flare,target, callback,index) {
     flare.stopAllActions();
     flare.setBlendFunc(cc.SRC_ALPHA, cc.ONE);
     flare.attr({
@@ -17,7 +17,7 @@ var flareEffect = function (flare,target, callback) {
     var rotateEase = cc.rotateBy(2.5, 90).easing(cc.easeExponentialOut());
     var bigger = cc.scaleTo(0.5, 1);
 
-    var onComplete = cc.callFunc(callback, target);
+    var onComplete = cc.callFunc(callback, target,index);
     var killflare = cc.callFunc(function () {
         this.parent.removeChild(this,true);
     }, flare);

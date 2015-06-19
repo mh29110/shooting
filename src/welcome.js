@@ -1,5 +1,5 @@
 
-var HelloWorldLayer = cc.Layer.extend({
+var WelcomeLayer = cc.Layer.extend({
     ctor:function () {
         this._super();
         this.init();
@@ -15,7 +15,7 @@ var HelloWorldLayer = cc.Layer.extend({
         var sp = new cc.Sprite(res.loading_png);
         sp.anchorX = 0;
         sp.anchorY = 0;
-        sp.scale = 1.6;
+        sp.scale = 2.2;
         this.addChild(sp, 0);
 
         var singalHeight = PHS.menuHeight;
@@ -24,29 +24,45 @@ var HelloWorldLayer = cc.Layer.extend({
         var newGameSelect= new cc.Sprite(res.menu_png,cc.rect(0,singalHeight,singalWidth,singalHeight));
         var newGameDisable= new cc.Sprite(res.menu_png,cc.rect(0,singalHeight*2,singalWidth,singalHeight));
 
+        var aboutNormal = new cc.Sprite(res.menu_png, cc.rect(singalWidth * 2, 0, singalWidth, singalHeight));
+        var aboutSelected = new cc.Sprite(res.menu_png, cc.rect(singalWidth * 2, singalHeight, singalWidth, singalHeight));
+        var aboutDisabled = new cc.Sprite(res.menu_png, cc.rect(singalWidth * 2, singalHeight * 2, singalWidth, singalHeight));
+
+
         var flare = new cc.Sprite(res.flare_jpg);
         this.addChild(flare, 15, 10);
         flare.visible = false;
         var newGameItem = new cc.MenuItemSprite(newGameNormal,newGameSelect,newGameDisable,function(){
             this.onButtonEffect();
-            flareEffect(flare,this,this.onNewGame)
+            flareEffect(flare,this,this.onNewGame,0)
+        }.bind(this));
+        var about = new cc.MenuItemSprite(aboutNormal,aboutSelected,aboutDisabled,function(){
+            this.onButtonEffect();
+            flareEffect(flare,this,this.onNewGame,1)
         }.bind(this));
 
-        var menu = new cc.Menu(newGameItem);
+        var menu = new cc.Menu(newGameItem,about);
+        menu.alignItemsVerticallyWithPadding(15);
         this.addChild(menu,1);
         menu.x = winSize.width/2;
         menu.y = winSize.height/2;
 
         return true;
     },
-    onNewGame:function (pSender) {
+    onNewGame:function (pSender,index) {
         //load resources
         cc.LoaderScene.preload(g_maingame, function () {
             cc.audioEngine.stopMusic();
             cc.audioEngine.stopAllEffects();
             var scene = new cc.Scene();
-            scene.addChild(new GameLayer());
-            //scene.addChild(new GameControlMenu());
+            switch(index)
+            {
+                case 0:
+                    scene.addChild(new GameLayer());
+                    break;
+                case 1:
+                    scene.addChild(new BattleLayer())
+            }
             cc.director.runScene(new cc.TransitionFade(1.2, scene));
         }, this);
     },
@@ -60,7 +76,7 @@ var HelloWorldLayer = cc.Layer.extend({
 var HelloWorldScene = cc.Scene.extend({
     onEnter:function () {
         this._super();
-        var layer = new HelloWorldLayer();
+        var layer = new WelcomeLayer();
         this.addChild(layer);
     }
 });

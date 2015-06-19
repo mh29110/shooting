@@ -15,37 +15,24 @@ var res = {
     s_cyborg_xml : "res/shoot/cyborg.xml",
     fire_png:'res/shoot/fire.png',
     jack:'res/Captain_Jack.json',
-    //----------------------------used---------------------//
-    bgMusic_mp3 : 'res/Music/bgMusic.mp3',
-    bgMusic_ogg : 'res/Music/bgMusic.ogg',
-    bgMusic_wav : 'res/Music/bgMusic.wav',
-    explodeEffect_mp3 : 'res/Music/explodeEffect.mp3',
-    explodeEffect_ogg : 'res/Music/explodeEffect.ogg',
-    explodeEffect_wav : 'res/Music/explodeEffect.wav',
-    fireEffect_mp3 : 'res/Music/fireEffect.mp3',         //unused
-    fireEffect_ogg : 'res/Music/fireEffect.ogg',         //unused
-    fireEffect_wav : 'res/Music/fireEffect.wav',         //unused
-    mainMainMusic_mp3 : 'res/Music/mainMainMusic.mp3',
-    mainMainMusic_ogg : 'res/Music/mainMainMusic.ogg',
-    mainMainMusic_wav : 'res/Music/mainMainMusic.wav',
-    shipDestroyEffect_mp3 : 'res/Music/shipDestroyEffect.mp3',
-    shipDestroyEffect_ogg : 'res/Music/shipDestroyEffect.ogg',
-    shipDestroyEffect_wav : 'res/Music/shipDestroyEffect.wav',
-    arial_14_fnt : 'res/arial-14.fnt',
-    arial_14_png : 'res/arial-14.png',
-    cocos2d_html5_png : 'res/cocos2d-html5.png',
-    gameOver_png : 'res/gameOver.png',
-    gameOverBack_png : 'res/gameoverBack.png',
     loading_png : 'res/loading.jpg',
     menu_png : 'res/menu.png',
+    arial_14_fnt : 'res/arial-14.fnt',
+    arial_14_png : 'res/arial-14.png',
+    sandbg0:'sandbg0.png',
+    //-----ccs -----//
+    shaq:"res/GeneralShark.json",
+    bs:'res/BattleLayer.json',
+    sand_tmx:'res/BattleScene/sandbg/sand.tmx',
 };
 
 var g_mainmenu = [
     res.loading_png,
-    res.menu_png
+    res.menu_png,
 ];
 
 var g_maingame = [
+    res.sandbg0,
     res.hole_stencil_png,
     res.hole_effect_png,
     res.flare_jpg,
@@ -60,5 +47,8 @@ var g_maingame = [
     res.s_cyborg_xml,
     res.s_cyborg_png,
     res.s_cyborg_plist,
-    res.jack
+    res.sand_tmx,
+    res.jack,
+    res.shaq,
+    res.bs,
 ];
