@@ -19,7 +19,7 @@ var res = {
     menu_png : 'res/menu.png',
     arial_14_fnt : 'res/arial-14.fnt',
     arial_14_png : 'res/arial-14.png',
-    sandbg0:'sandbg0.png',
+    sandbg0:'res/BattleScene/sandbg/sandbg0.png',
     //-----ccs -----//
     shaq:"res/GeneralShark.json",
     bs:'res/BattleLayer.json',
