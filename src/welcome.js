@@ -61,6 +61,7 @@ var WelcomeLayer = cc.Layer.extend({
                     scene.addChild(new GameLayer());
                     break;
                 case 1:
+                    scene.addChild(new GameLayer());
                     scene.addChild(new BattleLayer())
             }
             cc.director.runScene(new cc.TransitionFade(1.2, scene));

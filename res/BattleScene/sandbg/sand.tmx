@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="5" height="5" tilewidth="128" tileheight="128">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="5" height="5" tilewidth="128" tileheight="128" nextobjectid="1">
  <tileset firstgid="1" name="sandbg0" tilewidth="128" tileheight="128">
   <image source="sandbg0.png" width="128" height="128"/>
  </tileset>
@@ -18,11 +18,6 @@
  <tileset firstgid="6" name="egyptbackground0" tilewidth="128" tileheight="128">
   <image source="egyptbackground0.png" width="640" height="640"/>
  </tileset>
- <layer name="layer6" width="5" height="5">
-  <data encoding="base64" compression="zlib">
-   eJwNw8cNgDAQALB70Qm9hLb/mNiSi4goraxtbO3sTQ6OTs4urm7uHp5mL28fXz9/R3wBww==
-  </data>
- </layer>
  <layer name="layer1" width="5" height="5">
   <data encoding="base64" compression="zlib">
    eJxjYGBgYGLAD5hwsLHxsYkDAAJsAAs=

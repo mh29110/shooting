@@ -116,6 +116,7 @@ var GameLayer = cc.Layer.extend({
 				}
 			},this);
 		}
+        //仍然传入全局坐标,以便子弹添加到世界坐标
         if ('mouse' in cc.sys.capabilities)
             cc.eventManager.addListener({
                 event: cc.EventListener.MOUSE,
@@ -132,7 +133,7 @@ var GameLayer = cc.Layer.extend({
                     }
                 }
             }, this);
-
+        //仍然传入全局坐标,以便子弹添加到世界坐标
         if (cc.sys.capabilities.hasOwnProperty('touches')){
             cc.eventManager.addListener({
                 prevTouchId: -1,

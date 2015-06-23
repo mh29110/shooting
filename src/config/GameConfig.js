@@ -25,6 +25,6 @@ PHS.menuWidth = 123;
 PHS.SCORE = 0;
 
 //sound
-PHS.SOUND = true;
+PHS.SOUND = false;
 
 
