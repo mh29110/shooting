@@ -1734,14 +1734,14 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "BattleScene/BS09.png",
         "BattleScene/BS12.png",
+        "Jones.json",
+        "Captain_Jack.json",
+        "BattleScene/BS09.png",
         "Cat_Queen.json",
         "Pharaoh.json",
-        "Jones.json",
-        "Huchey.json",
-        "Captain_Jack.json",
-        "Default/TextAtlas.png"
+        "Default/TextAtlas.png",
+        "Huchey.json"
       ],
       "ctype": "GameProjectData"
     }

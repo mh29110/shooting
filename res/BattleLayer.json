@@ -555,6 +555,155 @@
             },
             "Name": "jack",
             "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BattleScene/BS13.png",
+              "Plist": ""
+            },
+            "Scale9Width": 188,
+            "Scale9Height": 54,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 111.4256,
+              "Y": 669.8202
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0871,
+              "Y": 0.9303
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.2937,
+              "Y": 0.3857
+            },
+            "LeftMargin": 17.4416,
+            "RightMargin": 1074.5903,
+            "TopMargin": 23.1808,
+            "BottomMargin": 642.8212,
+            "Tag": 314,
+            "Children": [
+              {
+                "CharWidth": 14,
+                "CharHeight": 18,
+                "LabelText": "2223",
+                "StartChar": "/",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Default",
+                  "Path": "Default/TextAtlas.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 45.7702,
+                  "Y": 28.6081
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2435,
+                  "Y": 0.5298
+                },
+                "PreSize": {
+                  "X": 0.4521,
+                  "Y": 0.3333
+                },
+                "LeftMargin": 45.7702,
+                "RightMargin": 57.1978,
+                "TopMargin": 16.3899,
+                "BottomMargin": 19.6081,
+                "Tag": 315,
+                "ActionTag": -4658008,
+                "ZOrder": 3,
+                "Size": {
+                  "X": 56.0,
+                  "Y": 18.0
+                },
+                "Name": "AtlastLabel_Coincount_2_6",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/Cn16.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 57,
+                "Scale9Height": 53,
+                "AnchorPoint": {
+                  "ScaleX": 0.4384,
+                  "ScaleY": 0.4641
+                },
+                "Position": {
+                  "X": 13.3645,
+                  "Y": 29.6935
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0711,
+                  "Y": 0.5499
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.3032,
+                  "Y": 0.9815
+                },
+                "LeftMargin": -11.6207,
+                "RightMargin": 142.5968,
+                "TopMargin": -4.0977,
+                "BottomMargin": 5.0966,
+                "Tag": 316,
+                "ActionTag": 1741631230,
+                "ZOrder": 2,
+                "Size": {
+                  "X": 56.9919,
+                  "Y": 52.999
+                },
+                "Name": "ImageView_Coin_3_14",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1785198020,
+            "ZOrder": 1,
+            "Size": {
+              "X": 187.968,
+              "Y": 53.998
+            },
+            "Name": "ImageView_Coinbg_4",
+            "ctype": "ImageViewObjectData"
           }
         ],
         "Size": {
@@ -565,11 +714,14 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
+        "Default/TextAtlas.png",
+        "BattleScene/BS13.png",
+        "Captain_Jack.json",
+        "Default/LoadingBarFile.png",
         "BattleScene/BS14.png",
         "Common/Cn17.png",
         "GeneralShark.json",
-        "Captain_Jack.json",
-        "Default/LoadingBarFile.png",
+        "Common/Cn16.png",
         "BattleScene/sandbg/egyptbackground0.png",
         "BattleScene/sandbg/sandbg4.png",
         "BattleScene/sandbg/sandbg3.png",

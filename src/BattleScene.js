@@ -9,22 +9,37 @@ var BattleLayer = cc.Layer.extend({
 		this.init();
 	},
 	init:function(){
+//-------------------init data and view-----------------------
         this._obstacles = [];
         this.addBackLabel();
-        // ccs 
+
+//-----------------------ccs-------------------
+         // ccui.helper.seekActionWidgetByActionTag(this._mainNode.action, tag);
+//---
+        
 		this._mainNode = ccs.load(res.bs);
         this.addChild(this._mainNode.node);
 
-        var shaqAction = this._mainNode.action;
+
+        // var textLabel = this._mainNode.node.getChildByTag(314).getChildByTag(315);
+        var textLabel = ccui.helper.seekWidgetByTag(this._mainNode.node, 315);
+        textLabel.setString("2");
+
+        var mainAction = this._mainNode.action;
         var shaq = this._mainNode.node.getChildByTag(3513);
-        shaq.runAction(shaqAction);
-        shaqAction.gotoFrameAndPlay(0,10,true);
+        //one way :::
+        // shaq.runAction(mainAction);
+        // mainAction.gotoFrameAndPlay(0,10,true);
+
+        //another better :::
+        var shaqAction = shaq.getActionByTag(3513);
+        shaqAction.play("die",true);
 
         var jack = this._mainNode.node.getChildByTag(3605);
-        var jackAction = shaqAction.clone();
+        var jackAction = jack.getActionByTag(3605);
         jack.runAction(jackAction);
-        jackAction.gotoFrameAndPlay(10,50,true);
-        
+        jackAction.play("attack",true);
+
         var tiles = this._mainNode.node.getChildByTag(3512);
         var mapWidth = tiles.getMapSize().width;
         var mapHeight = tiles.getMapSize().height;
@@ -46,7 +61,7 @@ var BattleLayer = cc.Layer.extend({
         }
         this._target = tiles;
         
-
+//----------------------event-----------------------------
         if(cc.sys.capabilities.hasOwnProperty('keyboard'))
         {
             cc.eventManager.addListener({
