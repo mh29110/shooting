@@ -165,6 +165,38 @@
             <PreSize />
             <FileData Type="Normal" Path="Captain_Jack.csd" Plist="" />
           </AbstractNodeData>
+          <AbstractNodeData Name="ImageView_Coinbg_4" ActionTag="-1785198020" ZOrder="1" Tag="314" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="17.4416" RightMargin="1074.5903" TopMargin="23.1808" BottomMargin="642.8212" Scale9Width="188" Scale9Height="54" ctype="ImageViewObjectData">
+            <Size X="187.9680" Y="53.9980" />
+            <Children>
+              <AbstractNodeData Name="AtlastLabel_Coincount_2_6" ActionTag="-4658008" ZOrder="3" Tag="315" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="45.7702" RightMargin="57.1978" TopMargin="16.3899" BottomMargin="19.6081" CharWidth="14" CharHeight="18" LabelText="2223" StartChar="/" ctype="TextAtlasObjectData">
+                <Size X="56.0000" Y="18.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="45.7702" Y="28.6081" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.2435" Y="0.5298" />
+                <PreSize X="0.4521" Y="0.3333" />
+                <LabelAtlasFileImage_CNB Type="Default" Path="Default/TextAtlas.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="ImageView_Coin_3_14" ActionTag="1741631230" ZOrder="2" Tag="316" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="-11.6207" RightMargin="142.5968" TopMargin="-4.0977" BottomMargin="5.0966" Scale9Width="57" Scale9Height="53" ctype="ImageViewObjectData">
+                <Size X="56.9919" Y="52.9990" />
+                <AnchorPoint ScaleX="0.4384" ScaleY="0.4641" />
+                <Position X="13.3645" Y="29.6935" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.0711" Y="0.5499" />
+                <PreSize X="0.3032" Y="0.9815" />
+                <FileData Type="Normal" Path="Common/Cn16.png" Plist="" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="111.4256" Y="669.8202" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.0871" Y="0.9303" />
+            <PreSize X="0.2937" Y="0.3857" />
+            <FileData Type="Normal" Path="BattleScene/BS13.png" Plist="" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

@@ -1044,21 +1044,21 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "BattleScene/BS01.png",
-        "BattleScene/BS08.png",
         "Common/Cn19.png",
         "Common/Cn16.png",
+        "BattleScene/BS04.png",
+        "Default/Button_Normal.png",
+        "BattleScene/BS05.png",
+        "BattleScene/BS02.png",
+        "BattleScene/BS01.png",
         "Default/TextAtlas.png",
         "Common/Cn20.png",
         "BattleScene/BS03.png",
-        "BattleScene/BS04.png",
         "Default/Button_Disable.png",
-        "Default/Button_Normal.png",
-        "BattleScene/BS05.png",
         "BattleScene/BS06.png",
-        "BattleScene/BS11.png",
-        "BattleScene/BS02.png",
-        "BattleScene/BS13.png"
+        "BattleScene/BS08.png",
+        "BattleScene/BS13.png",
+        "BattleScene/BS11.png"
       ],
       "ctype": "GameProjectData"
     }
