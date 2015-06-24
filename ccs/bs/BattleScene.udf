@@ -29,7 +29,10 @@
     </Item>
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
-        <ActiveDocument />
+        <OpenedDocuments>
+          <FilePathData Path="BattleLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="BattleLayer.csd" />
       </Value>
     </Item>
   </Properties>
